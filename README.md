@@ -15,7 +15,7 @@
 回歸型 - 除了第一行依然為代表資料總筆數的整數外，之後的每一行皆表示一筆資料，同樣以倍精度且16進制的格式表示
 ![GITHUB](image/dataformat_regression.png)
 
-## 模型轉換-hdf5或onnx到model.txt
+## 模型轉換 - hdf5或onnx到model.txt
 程式位於tool/FormatConverter下
 ```
 python [forHDF5.py|forONNX.py] path_to_model
